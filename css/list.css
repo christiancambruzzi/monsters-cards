@@ -1,0 +1,42 @@
+.monsters-list {
+  width: 170px;
+}
+
+.monsters-list img {
+  max-width: 50px;
+}
+
+.monsters-list .monster {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #9a82a3;
+  color: #ffffff;
+  padding: 0 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  min-height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  transition: all 0.4s ease-in-out;
+}
+
+.monsters-list .monster:hover {
+  transform: scale(1.1);
+}
+
+.monsters-list .monster img {
+  width: 50%;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.monsters-list .monster span {
+  padding-right: 20px;
+}
+
+.monsters-list .monster.active{
+    background-color: #82BAB2;
+    color: #ffffff; 
+ }
